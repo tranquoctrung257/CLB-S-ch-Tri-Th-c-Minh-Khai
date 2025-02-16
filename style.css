@@ -1,0 +1,73 @@
+.navbar {
+    background-color: orange; 
+    padding: 15px 20px; 
+    display: flex;
+    align-items: center;
+    border-radius: 15px; 
+}
+
+.navbar img {
+    height: 40px; 
+    margin-right: 20px; 
+    border-radius: 50%; 
+}
+
+.nav-links {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links a {
+    color: white; 
+    text-decoration: none; 
+    padding: 10px 20px;
+    font-weight: bold;
+    display: inline-block;
+    border-radius: 10px; 
+}
+
+.nav-links a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px; 
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none; 
+    position: absolute;
+    background-color: rgb(105, 101, 92);
+    min-width: 160px;
+    z-index: 1;
+    top: 100%;
+    left: 0;
+    border-radius: 10px;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 10px 20px;
+    display: block;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block; 
+}
+
+.noi_dung {
+    font-size: 25px;
+    padding: 50px;
+    text-align: center;
+}
+.Lien_he{
+    background-color: rgb(172, 161, 142);
+    padding: 2px;
+    text-align: center;
+}
